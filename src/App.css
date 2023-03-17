@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
+
+* {
+    font-family: 'Sono', sans-serif;
+    color: white;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 2px 2px 20px 2px rgb(97, 97, 97);
+}
+
+@media (min-width:992px) {
+    .navbar-collapse ul {
+        width: 100%;
+    }
+
+    .navbar-collapse ul li:first-child {
+        margin-left: auto;
+    }
+
+}
+
+/* Home Page */
+.home {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+.home span {
+    color: blue;
+}
+
+/* contact page */
+.contact {
+    margin: 100px;
+}
+
+.contact a {
+    padding: 10px;
+}
+
+/* Project Page */
+.project-page {
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project-page table {
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(180, 154, 154);
+    /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fbf9f9;
+}
+
+/* about page */
+.about-page {
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+/* footer */
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+footer div {
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+}
+
+@media (max-width:452px) {
+
+    footer div {
+        width: 50%;
+    }
+
+}
