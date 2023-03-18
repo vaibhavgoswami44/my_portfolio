@@ -20,7 +20,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='projects' element={<Projects />} />
         </Routes>
-      <footer className=' d-flex flex-row justify-content-center align-items-center pb-5'>
+      <footer className='pb-5 d-flex flex-row justify-content-center align-items-center pb-5'>
         <div className='d-flex justify-content-around'>
           <a href='https://github.com/vaibhavgoswami44' rel="noreferrer" target='_blank'>  <i className="fa fa-github" aria-hidden="true">GitHub</i></a>
           <a href='mailto:vaibhavgoswami404@gmail.com' rel="noreferrer" target='_blank'>  <i className="fa fa-envelope" aria-hidden="true"></i></a>

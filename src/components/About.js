@@ -25,7 +25,7 @@ function About() {
           </div>
           <div style={{ width: '40%' }} >
             <h6>React</h6>
-            <h6>Redux</h6>
+            <h6>Redux(learning)</h6>
             <h6>Tailwind CSS</h6>
             <h6>BootStrap CSS</h6>
             <h6>Node JS(learning)</h6>
@@ -53,7 +53,7 @@ function About() {
         <hr />
 
         <div>
-          <a  href='https://drive.google.com/file/d/1F4TSpxE8d5EnMaySEDuJ085biPfd6ahD/view?usp=drivesdk'>  <button className='btn btn-primary' >Resume</button></a>
+          <a  href='https://drive.google.com/file/d/1FUPO_1nXBgSjEJkxWNX1WO1sTEQ7XX4G/view?usp=drivesdk'>  <button className='btn btn-primary' >Resume</button></a>
         </div>
 
       </div>
